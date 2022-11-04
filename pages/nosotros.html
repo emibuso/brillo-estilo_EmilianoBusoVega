@@ -1,24 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
-    <link rel="shortcut icon" href="../paginas/css/favicon.ico">
-    <link rel="stylesheet" href="./css/estilos.css  ">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Brillo & Estilos">
+    <link rel="icon" href="../css/favicon.ico" type="image/png" sizes="96x96">
+    <title>Brillo&Estilo</title>
+
+    <!-- Agrego bootstrap en CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/estilos.css">
+   </head>
+  <body class="text-white">
     <header>
-        <img class="logo" src="./assets/imagenes/1850.jpg" alt="Logo MakeUp" width="100">
-        <h1>Brillo y Estilo</main></h1>
-        <nav>
-            <a href="./index.html">Inicio</a>
-            <a href="./galeria.html">Galeria</a>
-            <a href="#">Nosotros</a>
-            <a href="./contacto.html">Contacto</a>
-            <a href="./ubicacion.html">Mapa</a>
-        </nav>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bgRosa">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="../assets/imagenes/brillo-estilo.png" alt="logo-novia" width="80" height="80"> 
+              <div class="d-flex flex-column m-0 justify-content-center align-items-center">
+                <h3 class="m-0 fuenteLogo; fw-light">Brillo & Estilo</h3>
+              </div>
+            </div>
+          </a>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active, text-white" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown"> 
+              <a class="nav-link dropdown-toggle; text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Conocenos &raquo</a>
+              <ul class="dropdown-menu"> 
+                <li><a class="dropdown-item" href="../pages/galeria.html">Galeria</a></li>
+                <li><a class="dropdown-item" href="#">Nosotros</a></li>
+                <li><a class="dropdown-item" href="../pages/ubicacion.html">Ubicacion</a></li>
+                <li><a class="dropdown-item" href="../pages/contacto.html">Contacto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main class="container-fluid">
+      <main class="container-fluid">
+        <div class="VideoPrincipal container-fluid bg-body border">
+          <img src="../assets/imagenes/7.jpg" alt="maquilladora">
+        </div>
+      </header>
+      <div>
+        <p class="fuenteCursiva">Te esperamos en la galeria para conocer a nuestras novias y quinciañeras</p>
+            <p><a class="btn btn-lg bgBotonRosa text-white" href="#">Leer Más</a></p>
+      </div>
     <br>
     <br>
     <br>
@@ -31,15 +61,19 @@
     <br>
     <br>
     </header>
-    <footer class="classPie" id="pieDePagina">
-        <h4><p>Todos los derechos reservados</p></h4>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="./contacto.html">Contacto</a>
-            <a href="">Terminos y condiciones</a>
-            <a href="">Politicas de privacidad</a>
-        </nav>
-        <iframe src="" frameborder="0">mapa</iframe>
+    </main>
+    <!-- FOOTER -->
+<footer class="container-fluid bgRosa p-5 mb-0 ">
+  <p class="float-end"><a href="#">Back to top</a></p>
+  <p>&copy; 2022 Buso Vega, Emiliano. Todos los derechos Reservados</p>
+  <p>&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  <ul>
+    <li><a class="redes" src="https://instagram.com/julianatersol_makeup?igshid=YmMyMTA2M2Y=" target="_blank"></a>Instagram</li>
+    <li><a class="redes" href="https://instagram.com/julianatersol_makeup?igshid=YmMyMTA2M2Y=" target="_blank"></a>Facebook</li>
+    <li><a class="redes" href="https://instagram.com/julianatersol_makeup?igshid=YmMyMTA2M2Y=" target="_blank"></a>Youtube</li>
+    <li><i class="bi bi-facebook" target="_blank"></i></li>
+  </ul>
 </footer>
+<script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
