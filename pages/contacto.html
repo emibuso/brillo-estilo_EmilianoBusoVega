@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Brillo & Estilos">
+    <link rel="icon" href="../css/favicon.ico" type="image/png" sizes="96x96">
+    <title>Brillo&Estilo</title>
+
+    <!-- Agrego bootstrap en CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  </head>
+  <body class="text-white">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bd-navbar bgRosa">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+              <div class="d-flex justify-content-center align-items-center">
+                <img src="../assets/imagenes/brillo-estilo.png" alt="logo-novia" width="80" height="80"> 
+                <div class="d-flex flex-column m-0 justify-content-center align-items-center">
+                  <h3 class="m-0 fuenteLogo; fw-light">Brillo & Estilo</h3>
+                </div>
+              </div>
+            </a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active, text-white" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown"> 
+                <a class="nav-link dropdown-toggle; text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Conocenos &raquo</a>
+                <ul class="dropdown-menu"> 
+                  <li><a class="dropdown-item" href="../pages/galeria.html">Galeria</a></li>
+                  <li><a class="dropdown-item" href="../pages/nosotros.html">Nosotros</a></li>
+                  <li><a class="dropdown-item" href="../pages/ubicacion.html">Ubicación</a></li>
+                  <li><a class="dropdown-item" href="#">Contacto</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    <main class="container-fluid">
+      <div class="container-foto container-fluid bg-body border">
+        <img class="container-foto" src="../assets/imagenes/7.jpg" alt="maquilladora">
+      </div>
+      <br>
+      <br>
+      <br>
+    </header>
+    <section id="formulario" class="col-lg-8 md-6 sm-4 formularios">
+      <br>
+      <br>
+      <br>
+      <div class="body container-fluid m-4">
+      <form class="container-fluid align-content-around">
+          <div class="mb-lg-3 container-md">
+            <h2>Consulte servicios</h2>
+            <div>
+            <input type="text" class="form-control" placeholder="Nombre" required>
+            </div>
+            <label for="InputEmail1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+            <div id="emailHelp" class="form-text">Si te interesa un 15% de descuento, accede a nuestro newsletter.</div>
+            <div>
+            <br>
+            <label for="select" class="form-text">Indique servicio</label>
+              <select>
+                <option value="Uñas">Uñas</option>
+                <option value="Corte">Peinados</option>
+                <option value="MakeUp">Maquillaje</option>
+              </select>
+            </div>
+            <div class="mb-3 form-check formularios">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-text" for="exampleCheck1">Accedé al newsletter</label>
+            </div>
+          <button type="submit" class="btn btn-close, boton">Enviar</button>
+          <button type="reset" class="btn btn-close, boton">Limpiar</button>
+        </div>
+        </form>
+        </div>
+        </div>
+      <br>
+      <br>
+      <br>
+</section>
+</main>
+<div class="container-wp">
+  <a href="https://wa.me/987654321?text=Quiero%20realizar%20un%20consulta%20sobre%20..." target="_blank">
+      <img class="cont-wp" src="../assets/imagenes/icono.png" alt="WhatsApp">
+  </a>
+</div>
+<!-- FOOTER -->
+<footer class="container-fluid bgRosa p-5 mb-0 expand-lg">
+  <p class="float-end"><a href="#">Regresar al Inicio</a></p>
+  <section class="social">
+    <a href="https://www.instagram.com/" target="_blank">
+      <img class="cont-social" src="../assets/imagenes/instagram.png" alt="instagram">
+    </a>
+    <a href="https://www.facebook.com/" target="_blank">
+      <img class="cont-social" src="../assets/imagenes/facebook.png" alt="facebook">
+    </a>
+    <a href="https://twitter.com/" target="_blank">
+      <img class="cont-social" src="../assets/imagenes/twitter.png" alt="twitter">
+    </a>
+    <a href="https://youtube.com/" target="_blank">
+      <img class="cont-social" src="../assets/imagenes/youtube.png" alt="youtube">
+    </a>
+  <br>
+  <p>&copy; 2022 Buso Vega, Emiliano. Todos los derechos reservados</p>
+  <p>&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</footer>
+<script src="../js/bootstrap.bundle.min.js"></script>
+
+   
+</body>
+</html>

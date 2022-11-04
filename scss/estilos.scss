@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import "variables";
+
+   
+.imagenesGaleria {
+   width: 250px;
+   background-color: $rosapastel;
+   flex-wrap: wrap;
+   justify-content: center;
+   justify-content: space-around;
+   align-items: baseline;
+  }
+
+
+  .colorlink{
+  color: $rosapastel;  
+  }
+
+.body {
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+   color:  $rosapastel; 
+   display: flex;
+   height: 600px;
+   flex-direction: column;
+   padding: 1em;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+   background-color: $bodycolor;
+}
+   /* RESPONSIVE CSS*/
+   
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+.bgRosa{
+  background-color: $rosapastel;
+    .bgBotonRosa{
+      background-color: $rosapastel !important;
+    }}
+
+.colorRosa{
+  background-color:  $rosapastel !important;
+  .colorGaleria{
+    color: $rosapastel;}}
+          
+.nav{
+  background-color: $rosapastel;
+}
+
+.cards{
+  flex-direction: row;
+  padding-bottom: 20%;
+  justify-content: space-between;
+}
+              
+  .cover{
+    object-fit: cover;
+  }
+  .filtro{
+    filter: brightness(50%);
+  }
+    /*unifico fuente*/
+
+.tituloPrincipal{
+  font-size: 1.5rem;
+  font-family: $fuenteletra;
+    .fuenteLogo{
+      font-family: $fuenteletra;
+      font-size: 2.5rem;
+       .fuenteCursiva{
+          font-family: $fuenteletra;
+          color: #000000;
+            .fuenteNormal{
+              font-family: $fuenteletra;
+              color: #D68E87;
+  }}}}
+
+ .VideoPrincipal{
+   position: fixed;
+   min-width: 100%;
+   min-height: 100%;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   z-index: -1;
+   filter: brightness(50%);
+   }  
+
+
+.conocenos{
+  padding-top: 10rem;
+  flex-direction: row;
+  text-align: justify;
+  justify-content: space-between;
+  justify-content: center;
+  position: relative;
+    .conocenos-text {
+      text-align: justify;
+      ;
+ }
+}
+
+.fw-light{
+  text-align: left;
+  text-justify: auto;
+}
+
+.img-index {
+  image-orientation: center;
+  background-image: cover;
+  border-radius: 80%;
+  bottom: 40px;
+  right: 15px;
+  }
+
+ .container-foto{
+  background-position: center center;
+  background-size: cover;
+  position:fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+  filter: brightness(50%);
+ } 
+
+ .formularios{
+  margin-top: 30px;
+  padding-left: 50px;
+  border-radius: 5px solid rgb(255, 255, 255); 
+  bottom: 30px;
+  position: block;
+  flex-direction: column;
+  align-items: center;
+  
+ }
+ 
+  .borroso{
+    backdrop-filter: blur(5px);
+  }
+  .imgHover{
+    transition: all 2s;
+    z-index: -1;
+  }
+  .imgHover:hover{
+    filter: brightness(100%);
+    transform: scale(1.5);
+    z-index: 10;
+    overflow:hidden;
+    cursor:zoom-in;
+    align-self: center;
+  }
+  .imgHover:click{
+    filter: brightness(100%);
+    transform: scale(1.5);
+    z-index: 10;
+    cursor:zoom-in;
+    align-self: center;
+  }
+  .imgHover:focus{
+    filter: brightness(100%);
+    transform: scale(1.5);
+    z-index: 10;
+    cursor:zoom-in;
+    align-self: center;
+  }
+  .boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: $rosapastel;
+    background-color: $bodycolor;
+    border-radius: 6px;
+    border: 2px solid $rosapastel;
+  }
+  .error404{
+    min-width: 100px;
+    position: center;
+    background-size: cover;
+    align-items: center;
+    
+  }
+
+  .mapas{
+    height: 100vh;
+    padding: 500px;
+    position: fixed;
+    margin: 50vh;
+    background-color: #D68E87;
+    backdrop-filter: $borroso;
+  }
+
+.footer{
+  position: fixed;
+  min-width:auto;
+  contain: $bgRosa;
+  justify-content: left;
+  align-items: center;
+  bottom: 0%;
+}
+ .social{
+  min-width: 700px;
+  display: block;
+  justify-content: space-around;
+ }
+
+.social a:hover{
+  transform: scale(1.1);
+}
+.cont-social{
+  width: 30px;
+  transition: ease 1s;
+ }
+ .cont-social:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container-wp{
+  background-color: #2e6329;
+  border: 3px solid #fff;
+  position: fixed;
+  z-index: 999;
+  border-radius: 80%;
+  bottom: 20px;
+  right: 25px;
+  padding: 1px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+  
+  }
+  
+  .container-wp:hover{
+      transform: scale(1.1);
+      transition: 0.3s;
+  }
+  
+  .cont-wp{
+      width: 60px;
+      transition: ease 1s;
+  }
+  
+  @keyframes efecto{
+      0%{
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+      }
+      100%{
+          box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+      }
+  }
+
+
